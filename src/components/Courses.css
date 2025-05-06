@@ -147,3 +147,12 @@
 .error {
   color: red;
 }
+@media screen and (max-width: 768px) {
+  .popup input,
+  .popup textarea {
+    width: 92%;
+  }
+  .popup {
+    width: 80%;
+  }
+}

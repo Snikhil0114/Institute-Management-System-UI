@@ -29,6 +29,13 @@ const Dashboard = () => (
         </Link>
       </div>
       <div className="feature-card">
+        <h3>🏬 Department</h3>
+        <p>Create and organize course materials with ease.</p>
+        <Link to="/department">
+          <button className="btn">Go to Department</button>{" "}
+        </Link>
+      </div>
+      <div className="feature-card">
         <h3>👩‍🎓 Students</h3>
         <p>Track student profiles, attendance, and progress.</p>
       </div>

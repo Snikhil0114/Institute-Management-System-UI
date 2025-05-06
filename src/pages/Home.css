@@ -112,3 +112,8 @@
 .element::-webkit-scrollbar {
   display: none; /* Chrome, Safari, Edge */
 }
+@media (max-width: 769px) {
+  .hero {
+    height: 45vh !important;
+  }
+}
